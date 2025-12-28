@@ -5,12 +5,12 @@ project:
     - images/
   
 website:
-  title: "Daffa Daniel Rivaldi"
-  # site-url: https://daffadanielr.github.io/
- 
+  title: ""
   navbar:
     background: dark
     left:
+      - text: "Daffa Daniel Rivaldi"
+        href: "https://daffadaniel.github.io/"
       - href: https://daffadaniel.github.io/about.html
         text: About
       - href: https://daffadaniel.github.io/post.html
