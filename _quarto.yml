@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs 
+  resources:
+    - images/
+  
+website:
+  title: "Daffa Daniel Rivaldi"
+  site-url: https://daffadanielr.github.io/
+ 
+  navbar:
+    background: dark
+    left:
+      - href: https://daffadaniel.github.io/about.html
+        text: About
+      - href: https://daffadaniel.github.io/post.html
+        text: "Post"
+    right:
+      - icon: github
+        href: https://github.com/daffadanielr
+      - icon: linkedin
+        href: https://linkedin.com/in/...
+        
+
+page-footer:
+    right: "This blog is built with [Quarto](https://quarto.org/)."
+format:
+  html:
+    theme: darkly
+    css: styles.css
+    toc: true
+    embed-resources: true
+
+execute:
+  eval: false
+  freeze: true
