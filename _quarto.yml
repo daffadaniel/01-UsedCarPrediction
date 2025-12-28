@@ -6,7 +6,7 @@ project:
   
 website:
   title: "Daffa Daniel Rivaldi"
-  site-url: https://daffadanielr.github.io/
+  # site-url: https://daffadanielr.github.io/
  
   navbar:
     background: dark
