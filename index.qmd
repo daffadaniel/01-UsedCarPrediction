@@ -131,7 +131,7 @@ LightGBM achieved the lowest RMSE of 68090 on the validation set and was therefo
 
 ### Deployment
 
-::: {.iframe-container}
+:::{.iframe-container}
 <iframe src="https://usedcarpredapp-bhwgx6h2tvu5cf48ue4pu3.streamlit.app//?embed=true" 
         width="100%" 
         height="700" 

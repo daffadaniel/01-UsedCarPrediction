@@ -4769,12 +4769,8 @@ vertical-align: -.125em;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://daffadaniel.github.io/about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="https://daffadaniel.github.io/post.html"> 
-<span class="menu-text">Post</span></a>
+<span class="menu-text">⬅ Back to Posts</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -8707,7 +8703,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/daffadanielr\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

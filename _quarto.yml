@@ -5,7 +5,7 @@ project:
     - images/
   
 website:
-  title: ""
+  title: "Daffa Daniel Rivaldi"
   navbar:
     background: dark
     left:
