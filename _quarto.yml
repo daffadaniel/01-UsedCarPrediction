@@ -9,12 +9,8 @@ website:
   navbar:
     background: dark
     left:
-      - text: "Daffa Daniel Rivaldi"
-        href: "https://daffadaniel.github.io/"
-      - href: https://daffadaniel.github.io/about.html
-        text: About
-      - href: https://daffadaniel.github.io/post.html
-        text: "Post"
+      - text: "⬅ Back to Posts"
+        href: "https://daffadaniel.github.io/post.html"
     right:
       - icon: github
         href: https://github.com/daffadanielr
