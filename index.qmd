@@ -9,6 +9,7 @@ website:
   repo-url: https://github.com/quarto-dev/quarto-demo
 ---
 
+
 ## Project Overview
 This is a complete end-to-end machine learning project that predicts used car prices based on a finished Kaggle competition dataset (Used Car Price Dataset ~188k rows).
 The goal of this repository is to showcase a production-ready ML workflow from raw data to a deployed web app:
@@ -28,7 +29,7 @@ Link to original competition (for reference):
 [Kaggle competition](https://www.kaggle.com/competitions/playground-series-s4e9)
 
 ### Project Structure
-```{{bash}}
+```bash
 ├───data
 │   ├───processed
 │   │   └───

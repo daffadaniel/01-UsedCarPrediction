@@ -8,24 +8,56 @@ website:
   title: "Daffa Daniel Rivaldi"
   navbar:
     background: dark
-    left:
-      - text: "⬅ Back to Posts"
+    search: true
+    left: 
+      - text: "Home"
+        href: "https://daffadaniel.github.io"
+      - text: "About"
+        href: "https://daffadaniel.github.io/about.html"
+      - text: "Posts"
         href: "https://daffadaniel.github.io/post.html"
     right:
       - icon: github
-        href: https://github.com/daffadanielr
+        href: https://github.com/daffadaniel
       - icon: linkedin
-        href: https://linkedin.com/in/...
+        href: https://www.linkedin.com/in/daffadr/
+      - icon: medium
+        href: medium.com
+
+  sidebar:
+    style: "floating"
+    background: rgb(26, 25, 24)
+    search: true
+    contents:    
+      - section: "Project Detail"
+        contents:
+          - text: "Ringkasan Project"
+            file: 
+          - text: "Analisis Notebook"
+            file: 
         
 
 page-footer:
     right: "This blog is built with [Quarto](https://quarto.org/)."
+
 format:
   html:
     theme: darkly
-    css: styles.css
+    mainfont: "Segoe UI, Roboto, Helvetica, Arial, sans-serif"
+    fontsize: "1.05em"
+    backgroundcolor: rgb(26, 25, 24)
+    fontcolor: white
+    page-layout: article
     toc: true
-    embed-resources: true
+    toc-location: right
+    css: styles.css
+    highlight-style: monokai
+    linkcolor: "#10a162"
+    grid:
+      sidebar-width: 300px
+      body-width: 768px
+      margin-width: 300px
+      gutter-width: 1.5rem
 
 execute:
   eval: false
