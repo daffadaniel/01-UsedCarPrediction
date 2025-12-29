@@ -41,3 +41,33 @@ Model selection prioritized **generalization performance and training stability*
 - Feature engineering from unstructured text can outperform model complexity
 - Leakage-safe pipelines are critical in real-world ML systems
 - Gradient boosting models excel when supported by strong data preparation
+
+## Project Structure
+```bash
+├───data
+│   ├───processed
+│   │   └───
+│   └───raw
+│       └───test.csv
+│       └───sample_submission.csv
+│       └───train.csv
+│       └───X_train.pkl
+│       └───X_valid.pkl
+│       └───y_train.pkl
+│       └───y_valid.pkl
+├───models
+│   └───imputer.pkl
+│   └───lgb_rand.pkl
+│   └───OHencoder.pkl
+│   └───scaler.pkl
+├───notebooks
+│       └───data_preparation.ipynb
+│       └───EDA.ipynb
+│       └───data_preprocessing.ipynb
+│       └───modelling.ipynb
+├───src
+│   └───modelling.py
+│   └───preprocessing.pkl    
+│   └───utils.pkl 
+└───requirements.txt
+```
