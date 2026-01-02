@@ -1,5 +1,15 @@
-## 1. Introduction
-### Project Overview
+---
+title: "Used Car Price Prediction: An End to End Machine Learning Project from EDA to Deployment."
+
+---
+
+
+::: {.callout-important}
+The coding phase is officially finished! I’m now working on turning the insights and results from this repo into a full-length article. In the meantime, feel free to check out the source code and documentation right [here](https://github.com/daffadaniel/01-UsedCarPrediction).
+:::
+
+
+<!-- ### Project Overview
 This is a complete end-to-end machine learning project that predicts used car prices based on a finished Kaggle competition dataset (Used Car Price Dataset ~188k rows).
 The goal of this repository is to showcase a production-ready ML workflow from raw data to a deployed web app.
 
@@ -13,10 +23,6 @@ The goal of this repository is to showcase a production-ready ML workflow from r
 Kaggle Playground Competition Series 4, Episode 9 (competition has ended)  ~188,000 rows of used car listings with features such as brand, model, year, mileage, fuel type, transmission, etc.
 [Kaggle competition](https://www.kaggle.com/competitions/playground-series-s4e9)
 
-## 2. Methodology
-
-
-## 3. Data Analysis and Findings
 
 ### Key Findings from EDA
 
@@ -87,34 +93,4 @@ Several models were evaluated using 5-fold CV and a hold-out validation set:
 |CatBoost|68356|
 
 LightGBM achieved the lowest RMSE of 68090 on the validation set and was therefore selected as the final model.
-
-
-### Project Structure
-```bash
-├───data
-│   ├───processed
-│   │   └───
-│   └───raw
-│       └───test.csv
-│       └───sample_submission.csv
-│       └───train.csv
-│       └───X_train.pkl
-│       └───X_valid.pkl
-│       └───y_train.pkl
-│       └───y_valid.pkl
-├───models
-│   └───imputer.pkl
-│   └───lgb_rand.pkl
-│   └───OHencoder.pkl
-│   └───scaler.pkl
-├───notebooks
-│       └───data_preparation.ipynb
-│       └───EDA.ipynb
-│       └───data_preprocessing.ipynb
-│       └───modelling.ipynb
-├───src
-│   └───modelling.py
-│   └───preprocessing.pkl    
-│   └───utils.pkl 
-└───requirements.txt
-```
+ -->

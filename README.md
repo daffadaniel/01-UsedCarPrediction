@@ -1,7 +1,6 @@
 # Used Car Price Prediction
 
-This project focuses on building an end-to-end machine learning pipeline to predict used car prices using a large-scale Kaggle dataset (~188k rows).  
-The emphasis is placed on **robust preprocessing, feature extraction from messy real-world data, and model validation**, rather than leaderboard optimization.
+This project focuses on building an end-to-end machine learning pipeline to predict used car prices using a large-scale Kaggle dataset (~188k rows). The emphasis is placed on **robust preprocessing, feature extraction from messy real-world data, and model validation**, rather than leaderboard optimization.
 
 ## Introduction
 
@@ -18,6 +17,12 @@ This project addresses these challenges by transforming unstructured automotive 
 ### Data Source
 Kaggle Playground Series S4E9 — Used Car Price Dataset  
 ~188,000 listings with attributes such as brand, mileage, engine details, fuel type, and transmission.
+
+### Related Articles
+Article published on:
+- Quarto: https://daffadaniel.github.io/01-UsedCarPrediction/
+- Medium: https://medium.com/
+
 
 ## Methodology
 

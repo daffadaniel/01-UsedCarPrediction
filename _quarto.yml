@@ -6,6 +6,8 @@ project:
   
 website:
   title: "Daffa Daniel Rivaldi"
+  repo-url: https://github.com/daffadaniel/01-UsedCarPrediction
+  repo-actions: [source, issue]
   navbar:
     background: dark
     search: true
@@ -29,19 +31,22 @@ website:
     background: rgb(26, 25, 24)
     search: true
     contents:    
+      - text: "Main Article"
+        file: index.qmd 
       - section: "Project Detail"
         contents:
-          - text: "Ringkasan Project"
-            file: 
-          - text: "Analisis Notebook"
-            file: 
-        
+        - text: "Exploratory Data Analysis Notebook"
+          file: project-files/notebooks/EDA.ipynb
+        - text: "Data Preprocessing Notebook"
+          file: project-files/notebooks/data_preprocessing.ipynb
+      
 
 page-footer:
     right: "This blog is built with [Quarto](https://quarto.org/)."
 
 format:
   html:
+    embed-resources: true
     theme: darkly
     mainfont: "Segoe UI, Roboto, Helvetica, Arial, sans-serif"
     fontsize: "1.05em"
